@@ -6,6 +6,7 @@ for (let i = 0; i < actualValues.length; i = i + 1) {
   });
 }
 
+
 const items = document.querySelectorAll(".dropdown__item");
 for (let i = 0; i < items.length; i = i + 1) {
   items[i].addEventListener("click", (event) => {
